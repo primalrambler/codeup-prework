@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Exercise 4.2.3</title>
+	</head>
+	<body>
+		<form method="POST" action="http://requestb.in/1075g611">
+			<p>What is your favorite color?</p>
+			<p>
+				<input type="radio" name="q1" value="blue">
+					Blue
+				<label>
+					<input type="radio" name="q1" value="brown">
+					Brown
+				</label>
+				<label>
+					<input type="radio" name="q1" value="red">
+					Red
+				</label>
+			</p>
+			<p>Have you ever eaten Haggis?</p>
+			<p>
+				<label>
+					<input type="radio" name="q2" value="yes">
+					Yes
+				</label>
+				<label>
+					<input type="radio" name="q2" value="no">
+					No
+				</label>
+			</p>
+<!--
+	**Lesson Learned: One "Submit" per form. You can't use a single submit button for two different forms. HTML picks the last form. You could put a submit button in each form but that would make for some odd behavior on the page. ***
+		</form>
+		<form method="POST" action="http://requestb.in/1075g611">
+-->
+			<p>What foods have you eaten?</p>
+			<input type="checkbox" id="food1" name="food[]" value="Cheeseburger">Cheeseburger
+			<label><input type="checkbox" id="food2" name="food[]" value="Haggis">Haggis</label>
+			<label><input type="checkbox" id="food3" name="food[]" value="Brussel Sprouts">Brussel Sprouts</label>
+
+			<p>Identify the vegetables in this list.</p>
+			<label><input type="checkbox" id="veg1" name="veg[]" value="tomato">Tomato</label>
+			<label><input type="checkbox" id="veg2" name="veg[]" value="broccoli">Broccoli</label>
+			<label><input type="checkbox" id="veg3" name="veg[]" value="zucchini">Zucchini</label>
+			<lable><input type="checkbox" id="veg4" name="veg[]" value="cauliflower">Cauliflower</label>
+		</form>
+		<p>
+			<input type="submit" value="SUBMIT">
+		</P>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercise 4.2.4</Title>
+	</head>
+	<body>
+		<form method="POST" action="http://requestb.in/1075g611">
+			<h2>Select Testing</h2>
+			<p>
+				<label for="alive">Are you alive?</label>
+				<select id="alive" name="alive">
+					<option>Yes</option>
+					<option selected>No</option>
+			</select>
+			</p>
+			<p>
+				<label for="dead">Are you dead?</label>
+				<select id="dead" name="dead">
+					<option value="1">Yes</option>
+					<option value="0" selected>No</option>
+				</select>
+			</p>
+			<p>
+				<label for="veg">Which of these are veggies?</label>
+				<select id="veg" name="veg[]" multiple>
+					<option>Tomato</option>
+					<option>Broccoli</option>
+					<option>Zucchini</option>
+					<option>Strawberry</option>
+				</select>
+			</p>
+			<p>
+				<label for="fruit">Which fruits do you like?</label>
+				<select id="fruit" name="fruit[]" multiple>
+					<option>Strawberry</option>
+					<option>Banana</option>
+					<option>Kiwi</option>
+					<option>Peach</option>
+				</select>
+			</p>
+			<p><input type="submit"></p>
+		</form>
+	</body>
+</html>

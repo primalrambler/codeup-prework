@@ -1,0 +1,38 @@
+/* Exercise 5.0 */
+
+.fancy-header {
+	color: red;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #00ff00;
+	text-decoration: overline;
+}
+
+body { 
+	background-color: #778899;
+	font-family: Helvetica;
+}
+
+ol {
+	color: #fa8072;
+}
+a:link {
+	color:#ff4500;
+}
+a:visited {
+	color:#f0e68c;
+	}
+a:hover {
+	color:#d3d3d3;
+}
+a:active {
+	color:#00ff00;
+}
+.quote {
+	background-color:#708090;
+	text-decoration:bold;
+	text-align:center;
+}
+ul {list-style: lower-greek;}
